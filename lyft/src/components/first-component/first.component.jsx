@@ -12,7 +12,7 @@ const FirstComponent = () => {
                         <h5 className='ready-text'>READY WHEN YOU ARE</h5>
                     </div>
                     <div className='window'>
-                        <h2 className='window-text'>Hop in. Crack a window. Let's get back out there.</h2>
+                        <h1 className='window-text'>Hop in. Crack a window. Let's get back out there.</h1>
                     </div>
                     <div className='button-container'>
                         <Button className='buttonone'>Apply to drive</Button>

@@ -4,12 +4,22 @@ import styled from 'styled-components';
 
 export const FirstContainer = styled.div`
    width: 100%;
+   height: 930px;
+   
+
+   @media screen and (max-width: 1200px){
+     height: 100%;
+   }
 
    .container {
        width: 90%;
        margin: 0 auto;
        display: grid;
        grid-template-columns: 1fr 1fr;
+
+    @media screen and (max-width: 1200px){
+        grid-template-columns: 1fr;
+   }
    }
 
    .ready-text {
@@ -31,6 +41,14 @@ export const FirstContainer = styled.div`
        width: 48%;
        display: flex;
        justify-content: space-between;
+
+    @media screen and (max-width: 1200px){
+        width: 50%;
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+   } 
    }
 
    .second-grid {
@@ -42,19 +60,15 @@ export const FirstContainer = styled.div`
    }
 
    .second {
-       width: 80%;
+       width: 90%;
        position: absolute;
        top: 550px;
-       right: 220px;
+       right: 150px;
 
     @media screen and (max-width: 1200px){
      display: none;
    }
    }
-
-   /* .second {
-       position: absolute;
-   } */
 
    img {
        width: 100%;
