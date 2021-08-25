@@ -60,7 +60,7 @@ export const FirstContainer = styled.div`
    }
 
    .second {
-       width: 90%;
+       width: 78%;
        position: absolute;
        top: 550px;
        right: 150px;

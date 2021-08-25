@@ -8,6 +8,10 @@ const Home = () => {
         <div>
             <Header />
             <FirstComponent />
+            <br />
+            <br />
+            <br />
+            <br />
             <SecondComponent />
         </div>
     )
