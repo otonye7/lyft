@@ -3,8 +3,10 @@ import styled from 'styled-components';
 
 
 export const FirstContainer = styled.div`
+   max-width: 1400px;
    width: 100%;
-   height: 930px;
+   height: 930px; 
+   margin: 0 auto;
    
 
    @media screen and (max-width: 1200px){
