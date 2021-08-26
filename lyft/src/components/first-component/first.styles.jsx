@@ -40,9 +40,8 @@ export const FirstContainer = styled.div`
    }
 
    .button-container {
-       width: 48%;
+       width: 100%;
        display: flex;
-       justify-content: space-between;
 
     @media screen and (max-width: 1200px){
         width: 50%;

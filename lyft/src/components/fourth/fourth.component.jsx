@@ -1,7 +1,10 @@
 import {FourthContainer } from './fourth.styles';
 import Button from '../button/button.component';
+import WhiteButton from '../white-button/white-button.component';
 import FourthSub from '../fourth-sub/fourth-sub.component';
 import Phone from '../../assets/phone.webp';
+import EventIcon from '@material-ui/icons/Event';
+
 
 const Fourth = () => {
     return (
@@ -18,12 +21,18 @@ const Fourth = () => {
                    <p className='o-text'>Whether you’re following your heart or your busy schedule, we’ll get<br />you where you need to go.</p>
                 </div>
                 <div className='button-container'>
-                   <Button>Button here</Button>
+                   <WhiteButton>Get a ride in minute</WhiteButton>
                    <br />
-                   <span className='span-text'>Know that your driver is wearing a mask</span>
+                   <div className='mask'>
+                      <EventIcon className='ic'/>
+                      <span className='span-text'>Know that your driver is wearing a mask</span>
+                   </div>
                    <br />
                    <br />
+                  <div className='calendar'>
+                    <EventIcon className='ic'/>
                    <span className='span-text'>Schedule your ride in advance</span>
+                  </div>
                 </div>
                 <br />
                 <br />

@@ -7,6 +7,7 @@ import Fifth from '../../components/fifth/fifth.component';
 import Sixth from '../../components/sixth/sixth.component';
 import Seventh from '../../components/seventh/seventh.component';
 import Eighth from '../../components/eight/eighth.component';
+import Footer from '../../components/footer/footer.component';
 
 
 const Home = () => {
@@ -43,6 +44,10 @@ const Home = () => {
             <br />
             <br />
             <Eighth />
+            <br />
+            <br />
+            <br />
+            <Footer />
         </div>
     )
 }

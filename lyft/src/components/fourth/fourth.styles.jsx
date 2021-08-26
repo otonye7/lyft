@@ -69,6 +69,25 @@ export const FourthContainer = styled.div`
        font-weight: 700;
        font-size: 15px;
        line-height: 18px;
+       padding-left: 0.2rem;
+   }
+
+   .mask {
+       display: flex;
+       align-items: center;
+   }
+
+   .ic {
+       width: 15px;
+   }
+
+    .calendar {
+       display: flex;
+       align-items: center;
+   }
+
+   .button-container {
+       align-items: center;
    }
 
    .o-text {

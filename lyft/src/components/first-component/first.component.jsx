@@ -1,5 +1,6 @@
 import { FirstContainer } from './first.styles';
 import Button from '../button/button.component';
+import WhiteButton from '../white-button/white-button.component';
 import FirstImage from '../../assets/first.webp';
 import SecondImage from '../../assets/second.webp';
 
@@ -15,8 +16,8 @@ const FirstComponent = () => {
                         <h1 className='window-text'>Hop in. Crack a window. Let's get back out there.</h1>
                     </div>
                     <div className='button-container'>
-                        <Button className='buttonone'>Apply to drive</Button>
-                        <Button className='buttontwo'>Sign up to ride</Button>
+                        <Button>Apply to drive</Button>
+                        <WhiteButton>Sign up to ride</WhiteButton>
                     </div>
                 </div> 
                <div className='second-grid'>
