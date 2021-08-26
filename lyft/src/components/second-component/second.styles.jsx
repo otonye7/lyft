@@ -10,18 +10,21 @@ export const SecondContainer = styled.div`
    .container {
        display: grid;
        grid-template-columns: 1fr 1fr;
-
     @media screen and (max-width:767px){
         grid-template-columns: 1fr;
    }
    }
-
    .first {
        width: 63.5%;
        margin: 0 auto;
-
     @media screen and (max-width:767px){
         display: none;
+   }
+   }
+
+    .com-guide {
+     @media screen and (max-width: 767px){
+      display: flex;
    }
    }
 
@@ -30,8 +33,15 @@ export const SecondContainer = styled.div`
        display: flex;
        justify-content: space-between;
        align-items: center;
-   }
 
+    @media screen and (max-width:767px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+   }
+   }
+   
    .driver{
        font-family: ProximaNova, sans-serif;
         font-weight: 700;
@@ -39,9 +49,20 @@ export const SecondContainer = styled.div`
        line-height: 15px;
        color: #4D4C68;
    }
-
    .arrow {
        color: #4D4C68;
+   }
+
+   .text {
+       width: 100%;
+   }
+
+   .lyft {
+       width: 100%;
+        @media screen and (max-width:767px){
+       display: flex;
+       justify-content: center; 
+   }
    }
 
    .drive-text {
@@ -51,23 +72,26 @@ export const SecondContainer = styled.div`
         line-height: 20px; 
         text-transform: uppercase;
         color: #0C0B31;
+   @media screen and (max-width:767px){
+        text-align: center;
    }
-
+   }
   
-
    .span {
     color: var(--core-ui-theme-text-primary,rgba(12,11,49,1));
     font-family: ProximaNova, sans-serif;
     font-weight: 400;
     font-size: 17px;
     line-height: 22px;
+     @media screen and (max-width:767px){
+        text-align: center;
+   }
    }
 
    .first-icon {
        display: flex;
        align-items: center;
    }
-
    .reliable-text {
        padding-left: 0.4rem;
          font-family: ProximaNova, sans-serif;
@@ -76,7 +100,6 @@ export const SecondContainer = styled.div`
         line-height: 20px;
         color: #0C0B31;
    }
-
    .p-text {
        font-family: ProximaNova, sans-serif;
        font-weight: 400;
@@ -84,12 +107,13 @@ export const SecondContainer = styled.div`
        line-height: 22px;
        color: #0C0B31;
    }
-
    .icons {
        color:  #0C0B31;
-       padding-bottom: 2.5rem;
+       padding-bottom: 1rem;
+    @media screen and (max-width:767px){
+        padding-bottom: 2rem;
    }
-
+   }
    .icon {
        color:  #0C0B31;
        padding-bottom: 1rem;
@@ -97,7 +121,7 @@ export const SecondContainer = styled.div`
 
     .ico {
        color:  #0C0B31;
-       padding-bottom: 2rem;
+       padding-bottom: 1rem;
    }
 
    .set-text {
@@ -106,6 +130,17 @@ export const SecondContainer = styled.div`
        font-size: 30px;
        line-height: 36px;
        color: #0C0B31;
+    @media screen and (max-width:767px){
+        text-align: center;
+   }
+   }
+
+     .first-conta {
+      display: none;
+    @media screen and (max-width:767px){
+       width: 100%; 
+       display: unset;
+   }
    }
 
    img {

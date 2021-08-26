@@ -10,11 +10,19 @@ export const EighthContainer = styled.div`
    .container {
        width: 80%;
        margin: 0 auto;
+
+    @media screen and (max-width:767px){
+        width: 98%;
+   }
    }
 
    .im-cont {
        width: 15%;
        margin: 0 auto;
+
+    @media screen and (max-width:767px){
+        width: 60%;
+   }
    }
 
    .st-text {
@@ -23,6 +31,10 @@ export const EighthContainer = styled.div`
        font-size: 30px;
        line-height: 36px;
        color: #0C0B31;
+
+    @media screen and (max-width:767px){
+        text-align: center;
+   }
    }
 
    .st {
@@ -31,6 +43,9 @@ export const EighthContainer = styled.div`
        font-weight: 400;
        font-size: 17px;
        line-height: 22px;
+    @media screen and (max-width:767px){
+        text-align: center;
+   }
    }
 
      .button-container {

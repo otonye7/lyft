@@ -23,11 +23,8 @@ const SecondComponent = () => {
                 <div className='t-container'>
                    <p className='span'>
                        Maybe you’re saving up for school. Or keeping flexible hours to spend
-                       <br />
                        more time with your family. It’s a great time to get in the driver’s seat,
-                       <br />
                        connect with your community, and earn a little extra cash. Plus, you can
-                       <br />
                        tell people you’ve got the best boss in town: you.
                    </p>
                 </div>
@@ -38,7 +35,7 @@ const SecondComponent = () => {
                       <p className='reliable-text'>
                          <strong>Reliable earning</strong>
                          <br />
-                         Make money, keep your tips, and use in-app tools to help maximize <br /> your earnings.
+                         Make money, keep your tips, and use in-app tools to help maximize your earnings.
                       </p>
                    </div>
                 </div>
@@ -60,16 +57,23 @@ const SecondComponent = () => {
                       <p className='reliable-text'>
                          <strong>Get paid promptly</strong>
                          <br />
-                         Cash out your earnings whenever you want with Express Pay and <br /> Lyft Direct.
+                         Cash out your earnings whenever you want with Express Pay and  Lyft Direct.
                       </p>
                    </div>
                 </div>
                 <br />
                 <div className='button-container'>
                    <Button>Apply to drive</Button>
-                   <span className='driver'>How drivers pay work</span>
+                   <br />
+                  <div className='com-guide'>
+                    <span className='com'>How driver’s pay work</span>
                     <ArrowRightAltIcon className='arrow'/>
+                  </div>
                 </div>
+                </div>
+                <br />
+                <div className='first-conta'>
+                       <img src={FirstImage} alt=""/> 
                 </div>
            </div>
         </SecondContainer>

@@ -12,12 +12,29 @@ export const SeventhContainer = styled.div`
        grid-template-columns: 1fr 1fr;
        width: 80%;
        margin: 0 auto;
+
+    @media screen and (max-width:767px){
+        width: 98%;
+        grid-template-columns: 1fr;
+   }
    }
 
    .button-container {
        width: 100%;
        display: flex;
        align-items: center;
+
+     @media screen and (max-width:767px){
+        display: flex;
+        justify-content: center;
+   }
+   }
+
+   .lyft {
+    @media screen and (max-width:767px){
+        display: flex;
+        justify-content: center;
+   }
    }
 
    .safety-text {
@@ -27,6 +44,9 @@ export const SeventhContainer = styled.div`
        line-height: 20px;
        text-transform: uppercase;
        color: #0C0B31;
+    @media screen and (max-width:767px){
+        text-align: center;
+   }
    }
 
    .st-text {
@@ -35,6 +55,10 @@ export const SeventhContainer = styled.div`
        font-weight: 600;
        font-size: 30px;
        line-height: 36px;
+
+   @media screen and (max-width:767px){
+        text-align: center;
+   }
    }
 
    .arrow {
@@ -51,10 +75,24 @@ export const SeventhContainer = styled.div`
        font-weight: 400;
        font-size: 16px;
        line-height: 22px;
+    @media screen and (max-width:767px){
+        text-align: center;
+   }
    }
 
    .img-cont {
        width: 80%;
+    @media screen and (max-width:767px){
+        display: none;
+   }
+   }
+
+   .img-conta {
+      display: none;
+    @media screen and (max-width:767px){
+       width: 100%; 
+       display: unset;
+   }
    }
 
 

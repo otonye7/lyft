@@ -1,6 +1,6 @@
 import {FifthContainer } from './fifth.styles';
 import TextField from '@material-ui/core/TextField';
-import Button from '../button/button.component';
+import Button from '../white-button/white-button.component';
 
 const Fifth = () => {
     return (
@@ -12,11 +12,13 @@ const Fifth = () => {
                <form className='form' noValidate autoComplete="off">
                   <TextField className='input' id="outlined-basic" label="Enter your pick up location" variant="outlined" />
                    <TextField className='input' id="outlined-basic" label="Enter your drop off location" variant="outlined" />
-                   <div className='button-container'>
+                   <br />
+                   <div className='b-container'>
                       <Button>Get estimate</Button>
                    </div>
                 </form>
            </div>
+           <br />
         </FifthContainer>
     )
 }

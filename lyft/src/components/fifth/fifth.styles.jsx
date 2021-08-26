@@ -13,6 +13,18 @@ export const FifthContainer = styled.div`
        margin: 0 auto;
        display: flex;
        justify-content: space-between;
+       /* align-items: center; */
+
+   @media screen and (max-width: 767px){
+      width: 96%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+   }
+   }
+
+   .b-container {
+      margin-top: 1rem;
    }
 
    .text-text {
@@ -25,7 +37,14 @@ export const FifthContainer = styled.div`
 
    .form {
        display: flex;
-       align-items: center;
+       padding-top: 1rem;
+       /* align-items: center; */
+
+    @media screen and (max-width: 767px){
+      display: flex;
+      flex-direction: column;
+      align-items: none;
+   }
    }
 
    .input {
@@ -33,6 +52,7 @@ export const FifthContainer = styled.div`
        height: 55px;
        background-color: white;
        margin: 0.5rem;
+   }
    }
 
 `;

@@ -14,8 +14,20 @@ export const FourthContainer = styled.div`
        margin: 0 auto;
        display: flex;
        justify-content: space-between;
-       /* grid-template-columns: 1fr 1fr; */
-       /* border: 2px solid red; */
+
+      @media screen and (max-width:767px){
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+   }
+   }
+
+   .lyft {
+       width: 100%;
+        @media screen and (max-width:767px){
+       display: flex;
+       justify-content: center; 
+   }
    }
 
    .drive-text {
@@ -25,11 +37,19 @@ export const FourthContainer = styled.div`
     line-height: 20px;
     text-transform: uppercase;
     color: #0C0B6D;
+
+    @media screen and (max-width:767px){
+       text-align: center;
+   }
    }
 
    .image {
        width: 35%;
        margin: 0 auto; 
+
+    @media screen and (max-width:767px){
+       width: 100%;
+   }
    }
 
    .set-text {
@@ -38,6 +58,10 @@ export const FourthContainer = styled.div`
        font-size: 30px;
        line-height: 36px;
        color: #0C0B31;
+
+   @media screen and (max-width:767px){
+       text-align: center;
+   }
    }
 
    .lyft-text {
@@ -46,6 +70,10 @@ export const FourthContainer = styled.div`
        font-weight: 400;
        font-size: 15px;
        line-height: 20px;
+
+    @media screen and (max-width:767px){
+       text-align: center;
+   }
    }
 
    .ride-text {
@@ -75,15 +103,37 @@ export const FourthContainer = styled.div`
    .mask {
        display: flex;
        align-items: center;
+
+     @media screen and (max-width:767px){
+       justify-content: center;
+   }
    }
 
    .ic {
        width: 15px;
    }
 
+   .ride-button {
+    @media screen and (max-width:767px){
+        display: flex;
+       justify-content: center;
+   }
+
+   }
+
+    .white {
+    @media screen and (max-width:767px){
+        display: flex;
+       justify-content: center;
+   }
+    }
+
     .calendar {
        display: flex;
        align-items: center;
+    @media screen and (max-width:767px){
+       justify-content: center;
+   }
    }
 
    .button-container {
@@ -96,11 +146,14 @@ export const FourthContainer = styled.div`
         font-weight: 400;
         font-size: 17px;
         line-height: 22px;
+
+    @media screen and (max-width:767px){
+       text-align: center;
+   }
    }
 
 
    img {
        width: 100%;
-       border-top-right-radius: 150px;
    }
 `;

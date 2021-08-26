@@ -13,6 +13,11 @@ export const FooterContainer = styled.div`
        padding-top: 3rem;
        display: flex;
        justify-content: space-between;
+
+    @media screen and (max-width: 1200px){
+       display: flex;
+       flex-direction: column;
+   }
    }
 
    .text {
@@ -59,5 +64,10 @@ export const FooterContainer = styled.div`
        align-items: center;
        display: flex;
        justify-content: space-between;
+
+   @media screen and (max-width: 1200px){
+       display: none;
+   }
+
    }
 `;

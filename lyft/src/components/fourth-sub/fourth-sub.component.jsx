@@ -20,11 +20,27 @@ const FourthSub = () => {
                <br />
                <br />
                <Swiper
-                 spaceBetween={10}
-                 slidesPerView={4}
-                 Pagination={{clickable: true}}
-                 onSlideChange={() => console.log('slide change')}
-                 onSwiper={(swiper) => console.log(swiper)}
+                   breakpoints={{
+                    767: {
+                    slidesPerView: 'auto'
+                  },
+
+                  768: {
+                    slidesPerView: 'auto',
+                  },
+                  1737: {
+                      slidesPerView: 4
+                  },
+                  1738: {
+                    slidesPerView: 4
+                }
+
+                  }}
+               //   spaceBetween={10}
+               //   slidesPerView={4}
+               //   Pagination={{clickable: true}}
+               //   onSlideChange={() => console.log('slide change')}
+               //   onSwiper={(swiper) => console.log(swiper)}
                 >
                <SwiperSlide>
                   <div className='first-container'>

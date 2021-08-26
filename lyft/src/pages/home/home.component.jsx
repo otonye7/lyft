@@ -14,6 +14,8 @@ const Home = () => {
     return (
         <div>
             <Header />
+            <br />
+            <br />
             <FirstComponent />
             <br />
             <br />

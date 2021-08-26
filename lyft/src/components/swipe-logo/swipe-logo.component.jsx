@@ -15,11 +15,27 @@ const SwipeComponent = () => {
         <SwipeContainer>
             <div className='container'>
                <Swiper
-                 spaceBetween={50}
-                 slidesPerView={6}
-                 Pagination={{clickable: true}}
-                 onSlideChange={() => console.log('slide change')}
-                 onSwiper={(swiper) => console.log(swiper)}
+               breakpoints={{
+                    767: {
+                    slidesPerView: 4
+                  },
+
+                  768: {
+                    slidesPerView: 4
+                  },
+                  1737: {
+                      slidesPerView: 4
+                  },
+                  1738: {
+                    slidesPerView: 4
+                }
+
+                  }}
+               //   spaceBetween={50}
+               //   slidesPerView={6}
+               //   Pagination={{clickable: true}}
+               //   onSlideChange={() => console.log('slide change')}
+               //   onSwiper={(swiper) => console.log(swiper)}
                 >
                <SwiperSlide>
                    <div className='image-container'>

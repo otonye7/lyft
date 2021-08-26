@@ -5,7 +5,7 @@ import styled from 'styled-components';
 export const ButtonContainer = styled.div`
     button {
         min-width: 25px;
-        width: 200px;
+        width: 180px;
         height: 40px;
         color: #0C0B31;
         border-radius: 20px;

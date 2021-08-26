@@ -8,41 +8,55 @@ export const FirstContainer = styled.div`
    height: 930px; 
    margin: 0 auto;
    
-
    @media screen and (max-width: 1200px){
      height: 100%;
    }
 
    .container {
-       width: 90%;
+       width: 95%;
        margin: 0 auto;
        display: grid;
        grid-template-columns: 1fr 1fr;
-
     @media screen and (max-width: 1200px){
+        width: 92%;
         grid-template-columns: 1fr;
    }
-   }
 
+   }
    .ready-text {
        color: #0C0B31;
        font-family: ProximaNova, sans-serif;
        font-weight: 700;
        font-size: 17px;
        line-height: 20px;
+
+    @media screen and (max-width: 1200px){
+        text-align: center;
+   }
+   }
+
+   .window {
+       /* border: 2px solid red; */
+       /* width: 80%; */
    }
 
    .window-text {
        color: #0C0B31;
        font-family: LyftProUI, sans-serif;
-       font-weight: 600;
        font-size: 58px;
+       line-height: 69px;
+
+    @media screen and (max-width: 1200px){
+        text-align: center;
+        font-size: 40px;
+        line-height: 47px; 
+
+   }
    }
 
    .button-container {
        width: 100%;
        display: flex;
-
     @media screen and (max-width: 1200px){
         width: 50%;
         margin: 0 auto;
@@ -54,6 +68,10 @@ export const FirstContainer = styled.div`
 
    .second-grid {
        position: relative;
+
+    @media screen and (max-width: 1200px){
+        padding-top: 2rem;
+   }
    }
 
    .first {
@@ -65,7 +83,6 @@ export const FirstContainer = styled.div`
        position: absolute;
        top: 550px;
        right: 150px;
-
     @media screen and (max-width: 1200px){
      display: none;
    }
@@ -74,6 +91,4 @@ export const FirstContainer = styled.div`
    img {
        width: 100%;
    }
-
-
 `;

@@ -15,13 +15,15 @@ const Fourth = () => {
                    <span className='drive-text'>Ride with lyft</span>
                 </div>
                 <div className='text-container'>
-                   <h2 className='set-text'>  Ready, set, go <br /> in just a few quick taps.</h2>
+                   <h2 className='set-text'>  Ready, set, go  in just a few quick taps.</h2>
                 </div>
                 <div className='text-container'>
-                   <p className='o-text'>Whether you’re following your heart or your busy schedule, we’ll get<br />you where you need to go.</p>
+                   <p className='o-text'>Whether you’re following your heart or your busy schedule, we’ll get you where you need to go.</p>
                 </div>
                 <div className='button-container'>
+                <div className='white'>
                    <WhiteButton>Get a ride in minute</WhiteButton>
+                  </div>
                    <br />
                    <div className='mask'>
                       <EventIcon className='ic'/>

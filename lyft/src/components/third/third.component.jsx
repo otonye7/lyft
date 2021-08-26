@@ -16,11 +16,12 @@ const ThirdComponent = () => {
         <ThirdContainer>
             <div className='container'>
                <Swiper
-                 spaceBetween={50}
-                 slidesPerView={3}
-                 Pagination={{clickable: true}}
+               
+                  spaceBetween={50}
+                  slidesPerView={3}
+                  Pagination={{clickable: true}}
                  onSlideChange={() => console.log('slide change')}
-                 onSwiper={(swiper) => console.log(swiper)}
+                onSwiper={(swiper) => console.log(swiper)}
                 >
                <SwiperSlide>
                   <div className='first-container'>
@@ -99,6 +100,7 @@ const ThirdComponent = () => {
                      </div>
                   </div>
                </SwiperSlide>
+               
               </Swiper>
            </div>
         </ThirdContainer> 

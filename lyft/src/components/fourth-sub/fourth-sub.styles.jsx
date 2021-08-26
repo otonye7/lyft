@@ -11,10 +11,10 @@ export const FourthSubContainer = styled.div`
    .sub-container {
        width: 80%;
        margin: 0 auto;
-       /* display: flex;
-       justify-content: space-between; */
-       /* grid-template-columns: 1fr 1fr; */
-       /* border: 2px solid red; */
+    @media screen and (max-width:767px){
+      width: 98%;
+   }
+     
    }
 
    .sub-text {
@@ -23,6 +23,10 @@ export const FourthSubContainer = styled.div`
         font-size: 30px;
         line-height: 36px;
         color: #0C0B31;
+
+   @media screen and (max-width:767px){
+       text-align: center;
+   }
    }
 
    .para {
@@ -31,6 +35,10 @@ export const FourthSubContainer = styled.div`
        font-weight: 500;
        font-size: 17px;
        line-height: 20px;
+
+    @media screen and (max-width:767px){
+       text-align: center;
+   }
    }
 
    .card {
@@ -38,6 +46,7 @@ export const FourthSubContainer = styled.div`
        flex-direction: column;
        border-radius: 10px;
        margin-bottom: 1em;
+       margin-left: 0.5rem;
    }
 
    .last {

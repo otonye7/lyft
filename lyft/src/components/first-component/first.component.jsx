@@ -13,13 +13,18 @@ const FirstComponent = () => {
                         <h5 className='ready-text'>READY WHEN YOU ARE</h5>
                     </div>
                     <div className='window'>
-                        <h1 className='window-text'>Hop in. Crack a window. Let's get back out there.</h1>
+                    <h1 className='window-text'>Hop in.
+                         Crack a <br /> window. Let's get  back out
+                         there.
+                    </h1>
                     </div>
                     <div className='button-container'>
                         <Button>Apply to drive</Button>
+                        <br />
                         <WhiteButton>Sign up to ride</WhiteButton>
                     </div>
                 </div> 
+   
                <div className='second-grid'>
                    <div className='first'>
                        <img src={FirstImage} alt=""/> 
