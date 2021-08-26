@@ -147,6 +147,9 @@ const FourthSub = () => {
                   </div>
                </SwiperSlide>
               </Swiper>
+              <br />
+              <br />
+              <p className='last'>*Availability of bikes, scooters, rentals, ride types, and transit information varies by region.</p>
            </div>
         </FourthSubContainer>
     )

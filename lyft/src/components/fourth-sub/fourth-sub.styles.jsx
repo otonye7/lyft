@@ -36,6 +36,16 @@ export const FourthSubContainer = styled.div`
    .card {
        display: flex;
        flex-direction: column;
+       border-radius: 10px;
+       margin-bottom: 1em;
+   }
+
+   .last {
+        color: var(--core-ui-theme-text-secondary,rgba(12,11,49,0.7));
+        font-family: ProximaNova, sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
    }
 
    .rental-text {

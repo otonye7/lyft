@@ -6,7 +6,7 @@ import { getButtonColor } from '../../utils/utils';
 export const ButtonContainer = styled.div`
     button {
         min-width: 25px;
-        width: 140px;
+        width: 180px;
         height: 40px;
         color: white;
         border-radius: 20px;
