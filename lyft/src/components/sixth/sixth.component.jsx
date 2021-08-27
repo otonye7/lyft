@@ -27,7 +27,7 @@ const Sixth = () => {
                    <br />
                    <div className='com-guide'>
                    <span className='com'>community guidelines</span>
-                    <ArrowRightAltIcon className='arrow'/>
+                    {/* <ArrowRightAltIcon className='arrow'/> */}
                 </div>
                 </div>
             </div>

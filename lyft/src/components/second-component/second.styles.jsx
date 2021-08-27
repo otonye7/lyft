@@ -34,7 +34,7 @@ export const SecondContainer = styled.div`
        justify-content: space-between;
        align-items: center;
 
-    @media screen and (max-width:767px){
+    @media screen and (max-width:800px){
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -91,7 +91,11 @@ export const SecondContainer = styled.div`
    .first-icon {
        display: flex;
        align-items: center;
+    @media screen and (max-width:767px){
+       align-items: center;
    }
+   }
+
    .reliable-text {
        padding-left: 0.4rem;
          font-family: ProximaNova, sans-serif;

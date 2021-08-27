@@ -99,7 +99,7 @@ const Footer = () => {
               <span className='spans'>Insurance</span>
               </div>
            </div>
-           <br />
+
            <div className='buttons'>
                <Button>Lyft driver app</Button>
                <br />

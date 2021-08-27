@@ -8,7 +8,7 @@ export const FirstContainer = styled.div`
    height: 930px; 
    margin: 0 auto;
    
-   @media screen and (max-width: 1200px){
+   @media screen and (max-width: 800px){
      height: 100%;
    }
 
@@ -17,7 +17,7 @@ export const FirstContainer = styled.div`
        margin: 0 auto;
        display: grid;
        grid-template-columns: 1fr 1fr;
-    @media screen and (max-width: 1200px){
+    @media screen and (max-width: 800px){
         width: 92%;
         grid-template-columns: 1fr;
    }
@@ -30,7 +30,7 @@ export const FirstContainer = styled.div`
        font-size: 17px;
        line-height: 20px;
 
-    @media screen and (max-width: 1200px){
+    @media screen and (max-width: 800px){
         text-align: center;
    }
    }
@@ -46,7 +46,7 @@ export const FirstContainer = styled.div`
        font-size: 58px;
        line-height: 69px;
 
-    @media screen and (max-width: 1200px){
+    @media screen and (max-width: 800px){
         text-align: center;
         font-size: 40px;
         line-height: 47px; 
@@ -57,10 +57,11 @@ export const FirstContainer = styled.div`
    .button-container {
        width: 100%;
        display: flex;
-    @media screen and (max-width: 1200px){
-        width: 50%;
+    @media screen and (max-width: 800px){
+        width: 98%;
         margin: 0 auto;
         justify-content: center;
+        align-items: center;
         display: flex;
         flex-direction: column;
    } 
@@ -69,7 +70,7 @@ export const FirstContainer = styled.div`
    .second-grid {
        position: relative;
 
-    @media screen and (max-width: 1200px){
+    @media screen and (max-width: 800px){
         padding-top: 2rem;
    }
    }
@@ -83,7 +84,7 @@ export const FirstContainer = styled.div`
        position: absolute;
        top: 550px;
        right: 150px;
-    @media screen and (max-width: 1200px){
+    @media screen and (max-width: 800px){
      display: none;
    }
    }

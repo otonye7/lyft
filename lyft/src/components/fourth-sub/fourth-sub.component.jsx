@@ -22,20 +22,19 @@ const FourthSub = () => {
                <Swiper
                    breakpoints={{
                     767: {
-                    slidesPerView: 'auto'
+                     width: 768,
+                    slidesPerView: 4
                   },
 
                   768: {
-                    slidesPerView: 'auto',
+                    width: 768,
+                    slidesPerView: 4,
                   },
-                  1737: {
-                      slidesPerView: 4
-                  },
-                  1738: {
-                    slidesPerView: 4
-                }
 
-                  }}
+               }}
+               width="480"
+               spaceBetween={5}
+               slidesPerView={1}
                //   spaceBetween={10}
                //   slidesPerView={4}
                //   Pagination={{clickable: true}}

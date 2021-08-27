@@ -6,15 +6,19 @@ export const ThirdContainer = styled.div`
    max-width: 1400px;
    margin: 0 auto;
    width: 100%;
-    @media screen and (max-width:767px){
-       display: none;
-   }
 
    .container {
        width: 90%;
        margin: 0 auto;
     @media screen and (max-width:767px){
        width: 98%;
+   }
+   }
+
+   .first-container {
+      
+    @media screen and (max-width:767px){
+       width: 70%;
    }
    }
 

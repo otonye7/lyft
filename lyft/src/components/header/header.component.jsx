@@ -4,6 +4,7 @@ import Phone from '../../assets/logo.svg.png';
 import TextField from '@material-ui/core/TextField';
 import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
+import WhiteButton from '../white-button/white-button.component';
 
 const Header = () => {
     const [click, setClick] = useState(false);
@@ -22,7 +23,7 @@ const Header = () => {
                 <TextField className='input' id="outlined-basic" label="Where are you going" variant="outlined" />
               </div>
 
-            <div className='others'>
+            <div className={click ? "others active" : "others"}>
                 <div className='vertical-line'></div>
                 <h4 className='labels'>Driver</h4>
                 <div className='vertical-line'></div>
@@ -35,13 +36,16 @@ const Header = () => {
                 <h4 className='labels'>SignUp</h4>
           </div>
 
+          <div className={click ? "button active" : "button"}>
+                <button className='public'>Login</button>
+          </div>
+
           <div className="nav-icon" onClick={handleClick}>
            {
-            click ? <CloseIcon /> : <MenuIcon />
+            click ? <CloseIcon className='close'/> : <MenuIcon />
           } 
         </div>
         </div>
-        <br />
         <div className='horizontal'></div>
         </HeaderContainer>
     )

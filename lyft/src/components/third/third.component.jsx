@@ -16,12 +16,21 @@ const ThirdComponent = () => {
         <ThirdContainer>
             <div className='container'>
                <Swiper
-               
-                  spaceBetween={50}
-                  slidesPerView={3}
-                  Pagination={{clickable: true}}
-                 onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
+                breakpoints={{
+                    767: {
+                     width: 768,
+                    slidesPerView: 2
+                  },
+
+                  768: {
+                    width: 768,
+                    slidesPerView: 2,
+                  },
+
+               }}
+               width="480"
+               spaceBetween={5}
+               slidesPerView={1}
                 >
                <SwiperSlide>
                   <div className='first-container'>

@@ -48,10 +48,15 @@ export const FifthContainer = styled.div`
    }
 
    .input {
-       width: 300px;
+       width: 100%;
        height: 55px;
        background-color: white;
        margin: 0.5rem;
+
+   @media screen and (max-width: 767px){
+      width: 98%;
+      margin: 0 auto;
+   }
    }
    }
 

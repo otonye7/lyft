@@ -20,7 +20,8 @@ export const SixthContainer = styled.div`
    }
 
    .com-guide {
-     @media screen and (max-width: 767px){
+      
+     @media screen and (max-width: 800px){
       display: flex;
    }
    }
@@ -29,6 +30,7 @@ export const SixthContainer = styled.div`
        width: 70%;
        display: flex;
        justify-content: space-between;
+       align-items: center;
 
     @media screen and (max-width: 767px){
       width: 98%;
@@ -54,10 +56,10 @@ export const SixthContainer = styled.div`
        line-height: 36px;
    }
 
-   .arrow {
-       align-items: center;
+   /* .arrow {
+       
      
-   }
+   } */
 
    .spans {
        color: var(--core-ui-theme-text-primary,rgba(12,11,49,1));
